@@ -5,15 +5,14 @@
 */
 int main(void)
 {
-char *str = "abcdefghijklmnopqrstuvwxyz";
-int i = 0;
+  char x = 'a';
 
-while (str[i] != '\0')
-{
-putchar(str[i]);
-i++;
-}
-putchar('\n');
-return (0);
+  while (x != '{')
+    {
+      putchar(x);
+      x++;
+    }
+  putchar('\n');
+  return (0);
 }
  
